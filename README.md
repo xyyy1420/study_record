@@ -7,6 +7,10 @@
 - [x] rustlings 18/94 成到quiz1之后
 
 # week2
+
+## day1 
+- [x] rustlings 32/94
+
 - [] 完成rustlings的练习
 
 - [] 阅读rust语言圣经到2.14
