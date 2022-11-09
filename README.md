@@ -11,6 +11,12 @@
 ## day1 
 - [x] rustlings 32/94
 
+## day2
+- [x] 今天在赶学校ddl
+
+## day3
+- [x] rustlings 45/94
+
 - [] 完成rustlings的练习
 
 - [] 阅读rust语言圣经到2.14
