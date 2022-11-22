@@ -34,9 +34,8 @@
 
 ## day2
 
-查看了github ci运行的结果，发现本地运行没问题的94/94 在ci中只有91/94 经过详细的排错（比较费眼），找到了有问题的四个题目，分别是intro2，clippy1，clippy2，问题如下：
+查看了github ci运行的结果，发现本地运行没问题的94/94 在ci中只有92/94 经过详细的排错（比较费眼），找到了有问题的四个题目，分别是intro2，clippy1，clippy2，问题如下：
 
-- intro2，```println!("hello {}","world!");``` -> ```println!("hello world");```
 - clippy1 ```use core::f32::consts::PI;``` -> ```//use core::f32::consts::PI; let pi=f32::consts::PI;``` 
 - clippy2 ```while let Some(x)=option{...}``` -> ```if let Some(x)=option{...}```
 
