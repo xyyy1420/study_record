@@ -39,3 +39,14 @@
 - clippy1 ```use core::f32::consts::PI;``` -> ```//use core::f32::consts::PI; let pi=f32::consts::PI;``` 
 - clippy2 ```while let Some(x)=option{...}``` -> ```if let Some(x)=option{...}```
 
+
+# week emmmm? i forgot but today is 2022/12/9
+
+## friday
+🕊️了好久，一部分是因为期末，另外一部分还是因为期末 😭😭😭
+
+上次写了一点lab1但没有记录日志，现在所有的课程都转线上了，我继续来加上。
+
+上次写了lab1 然而，我发现如果我设定每一个task都有一个500*i32的数组来记录系统调用次数时，就会出现一些比较奇怪的问题，后来在mail list看到了相关的解决方案，然后今天做了修正。
+
+此外由于我使用Rfcell的不严谨，在使用了可变借用的时候，又使用了不可变借用，导致出现了panic，现在已经修好了。
